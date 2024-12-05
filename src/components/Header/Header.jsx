@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 
 const Header = () => {
   return (
     <>
-      <Link to="/">
-        <Logo />
-      </Link>
+      <Logo />
+
       <p>Navigacia</p>
       <p>Log/Reg</p>
       <p>User</p>

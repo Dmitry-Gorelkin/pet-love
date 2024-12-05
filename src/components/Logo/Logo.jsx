@@ -1,11 +1,14 @@
+import { Link } from 'react-router-dom';
 import icon from '../../assets/icons.svg';
 
 const Logo = () => {
   return (
     <>
-      <svg>
-        <use href={`${icon}#logo`}></use>
-      </svg>
+      <Link to="/home">
+        <svg>
+          <use href={`${icon}#logo`}></use>
+        </svg>
+      </Link>
     </>
   );
 };
