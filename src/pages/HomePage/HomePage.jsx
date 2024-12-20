@@ -1,13 +1,17 @@
-import { HomePageImg } from './HomePage.styled';
+import { HomePageMain, HomePageTitle, HomePageText, HomePageImg } from './HomePage.styled';
 
 const HomePage = () => {
   return (
     <>
-      <h1>Take good care of your small pets</h1>
-      <p>
-        Choosing a pet for your home is a choice that is meant to enrich your life with immeasurable
-        joy and tenderness.
-      </p>
+      <HomePageMain>
+        <HomePageTitle>
+          Take good <span>care</span> of your small pets
+        </HomePageTitle>
+        <HomePageText>
+          Choosing a pet for your home is a choice that is meant to enrich your life with
+          immeasurable joy and tenderness.
+        </HomePageText>
+      </HomePageMain>
       <HomePageImg />
     </>
   );
